@@ -1,4 +1,4 @@
-# MolAgent Reflection RAG
+# FORGE Reflection RAG
 
 QM9 分子检索增强生成（RAG）组件 — 基于 FAISS 二值指纹索引 + parquet 元数据管理，支持实验实例隔离和评估反馈增量更新。
 

@@ -1,4 +1,4 @@
-"""MolAgent Simple Evaluator — 纯 XTB 分子评估，无 DFT.
+"""FORGE Simple Evaluator — 纯 XTB 分子评估，无 DFT.
 
 接收 n 个 SMILES，用 XTB 几何优化后排序，
 返回前 m 个分子的 XTB 计算结果作为反馈。

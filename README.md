@@ -1,8 +1,8 @@
-# MolAgent
+# FORGE
 
-**LLM-driven molecular design with quantum chemistry feedback.**
+**Framework for Organic-molecule Generation via Reflection-Guided Evaluation**
 
-MolAgent is an iterative molecular design system that uses large language models
+FORGE is an iterative molecular design system that uses large language models
 to generate SMILES molecules targeting specific electronic properties (e.g.,
 HOMO-LUMO gap). Each iteration cycle: retrieves similar molecules from QM9 via
 RAG → prompts an LLM → evaluates generated molecules with quantum chemistry
@@ -42,8 +42,8 @@ RAG → prompts an LLM → evaluates generated molecules with quantum chemistry
 
 ```bash
 # Install dependencies (conda environment recommended)
-conda create -n molagent python=3.12
-conda activate molagent
+conda create -n forge python=3.12
+conda activate forge
 pip install rdkit pandas numpy scikit-learn openai pyscf
 pip install faiss-cpu pyarrow joblib
 
@@ -106,9 +106,7 @@ Both modes share the same interfaces, prompts, RAG engine, and result storage fo
 
 ## Experiment Results
 
-See [experiment/runs/compare/](experiment/runs/compare/) for benchmark data (target gap: 3.0 eV, 8 models × 3 seeds each).
-
-Top performers (median |deviation from target| across 3 seeds):
+Benchmark data (target gap: 3.0 eV, 8 models × 3 seeds each):
 
 | Rank | Model | Med \|dev\| | Mean ± SE |
 |---|---|---|---|
@@ -117,8 +115,6 @@ Top performers (median |deviation from target| across 3 seeds):
 | 3 | DeepSeek v4-flash | 0.0137 | 0.0567 ± 0.0471 |
 | 4 | GLM 5.1 | 0.0140 | 0.0315 ± 0.0232 |
 | 5 | DeepSeek v4-pro | 0.0473 | 0.0445 ± 0.0198 |
-
-Full report: [experiment/benchmark_report.typ](experiment/benchmark_report.typ)
 
 ## License
 

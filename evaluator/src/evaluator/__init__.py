@@ -1,4 +1,4 @@
-"""MolAgent Evaluator — 分子属性评估系统.
+"""FORGE Evaluator — 分子属性评估系统.
 
 两级计算流程:
   XTB (GFN2-xTB) 几何优化 + 预筛选

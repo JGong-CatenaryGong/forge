@@ -1,4 +1,4 @@
-"""MolAgent RAG Engine — QM9 分子检索与增量更新.
+"""FORGE RAG Engine — QM9 分子检索与增量更新.
 
 基于 FAISS 二值指纹索引 + pandas/parquet 元数据管理.
 支持实例隔离 (fork 模式)，每个实验独立运行互不污染.

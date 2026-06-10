@@ -1,5 +1,6 @@
-# MolAgent 使用文档
+# FORGE 使用文档
 
+Framework for Organic-molecule Generation via Reflection-Guided Evaluation
 ## 架构总览
 
 ```

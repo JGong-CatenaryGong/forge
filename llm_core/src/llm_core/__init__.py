@@ -1,4 +1,4 @@
-"""MolAgent LLM Core — LLM 驱动的分子设计主编排器.
+"""FORGE LLM Core — LLM 驱动的分子设计主编排器.
 
 固定轮次迭代: RAG 检索 → Prompt 组装 → LLM 生成 → Evaluator 评估 → 记录.
 

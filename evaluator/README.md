@@ -1,4 +1,4 @@
-# MolAgent Evaluator
+# FORGE Evaluator
 
 分子属性评估系统：通过 **XTB 半经验预筛选** + **[可选 ML 校准]** + **pySCF DFT 精确计算** 三级流水线，从大量候选 SMILES 中筛选出最接近目标 HOMO-LUMO gap 的分子。
 

@@ -1,5 +1,6 @@
-# MolAgent Usage Guide
+# FORGE Usage Guide
 
+Framework for Organic-molecule Generation via Reflection-Guided Evaluation
 ## Architecture Overview
 
 ```
