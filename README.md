@@ -28,9 +28,10 @@ pip install -e llm_core_simple
 export XTB_BIN=/path/to/xtb
 ```
 
-Configure API keys in `api_llm.txt`:
+Configure API keys (copy template, then edit):
 ```
-deepseek-v4-pro,sk-xxx,https://api.deepseek.com/v1
+cp api_llm.example.txt api_llm.txt
+# 编辑 api_llm.txt, 填入你的真实 key
 ```
 
 ## Packages
