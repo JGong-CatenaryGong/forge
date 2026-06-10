@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "molagent-reflection-rag"
+version = "0.1.0"
+description = "QM9-based molecular retrieval (RAG) with instance isolation and incremental reflection update"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=1.3",
+    "faiss-cpu>=1.7",
+    "pyarrow>=10.0",
+    "rdkit>=2023.03",
+]
+
+[project.optional-dependencies]
+qm9 = ["torch>=1.12"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

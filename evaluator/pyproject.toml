@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "molagent-evaluator"
+version = "0.2.0"
+description = "Molecular property evaluator: XTB pre-screening + pySCF DFT + ML correlation calibration"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=1.3",
+    "scikit-learn>=1.0",
+    "joblib>=1.2",
+    "rdkit>=2023.03",
+    "pyscf>=2.0",
+]
+
+[project.optional-dependencies]
+correlation = ["torch>=1.12"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
