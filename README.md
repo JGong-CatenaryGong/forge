@@ -50,7 +50,7 @@ cp api_llm.example.txt api_llm.txt
 
 | Model | Best \|dev\| | Med \|dev\| | Mean ± SE |
 |---|---|---|---|
-| **DeepSeek v4-pro** | **0.0089** | 0.0473 | 0.0445 ± 0.0198 |
+| DeepSeek v4-pro | 0.0054 | 0.00613 | 0.0238 ± 0.0180 |
 | Mimo v2.5-pro | 0.0053 | 0.0097 | 0.0250 ± 0.0176 |
 | Qwen 3.7-max | 0.0024 | 0.0112 | 0.0331 ± 0.0265 |
 | DeepSeek v4-flash | 0.0056 | 0.0137 | 0.0567 ± 0.0471 |
