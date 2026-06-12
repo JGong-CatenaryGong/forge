@@ -1,0 +1,9 @@
+{
+  "smiles": "CCN1CCN(CC)c2cc3oc(=O)ccc3cc21",
+  "sa_score": 2.596,
+  "s1_energy_eV": 3.365,
+  "dft_gap_eV": 3.894,
+  "dft_homo_eV": -5.27,
+  "dft_lumo_eV": -1.38,
+  "dft_energy_Ha": -840.705
+}

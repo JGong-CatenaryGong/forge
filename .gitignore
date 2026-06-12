@@ -1,0 +1,17 @@
+# API keys
+api_llm.txt
+
+# Experiment results
+experiment/runs/
+experiment/runs_*/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Data
+data/
+*.tar
+molagent/

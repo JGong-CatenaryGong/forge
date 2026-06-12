@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forge-evaluator-spectra"
+version = "0.1.0"
+description = "TD-DFT spectral evaluator: absorption spectrum, CIE 1931 color coordinates, excited states"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=1.3",
+    "rdkit>=2023.03",
+    "pyscf>=2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

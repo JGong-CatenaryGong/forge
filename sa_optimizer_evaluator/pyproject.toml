@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forge-sa-optimizer-evaluator"
+version = "0.1.0"
+description = "SA score optimization + ORCA TD-DFT S0-S1 excitation energy preservation"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=1.3",
+    "rdkit>=2023.03",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
