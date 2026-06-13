@@ -1,0 +1,11 @@
+{
+  "seed": "123",
+  "score": -10.6521,
+  "smiles": "CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc2)cc1",
+  "interactions": "vdwcontact(TYR22.A-UNL1)",
+  "key_hits": 0,
+  "h_bonds": 0,
+  "vdw": 1,
+  "pi_stack": 0,
+  "salt_bridges": 0
+}

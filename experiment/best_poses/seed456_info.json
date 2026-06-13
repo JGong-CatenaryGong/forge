@@ -1,0 +1,11 @@
+{
+  "seed": "456",
+  "score": -9.3684,
+  "smiles": "CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)NO)C(=O)O",
+  "interactions": "",
+  "key_hits": 0,
+  "h_bonds": 0,
+  "vdw": 0,
+  "pi_stack": 0,
+  "salt_bridges": 0
+}

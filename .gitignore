@@ -1,28 +1,10 @@
-# Python
+api_llm.txt
+experiment/runs/
+experiment/runs_dhfr/
+experiment/runs_*/
+experiment/*.log
 __pycache__/
 *.pyc
 *.egg-info/
-dist/
-build/
-
-# Data (too large for git)
 data/
 *.tar
-*.tar.gz
-
-# API keys
-api_llm.txt
-
-# Experiment runs (auto-generated)
-experiment/runs/
-
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/

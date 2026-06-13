@@ -1,0 +1,78 @@
+seed	round	mol_index	smiles	best_score	all_9_poses	n_hbonds	n_hydrophobic	n_pi_stack	n_salt_bridges	key_hits	interactions
+123	01	1	CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(cc1)C(=O)NC(CCc1nnn[nH]1)C(=O)O	-8.8279	-8.83 -8.07 -8.06 -7.97 -7.93 -7.75 -7.74 -7.45 -7.45	0	0	0	0	0	
+123	01	2	CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)O)C(=O)O	-8.2438	-8.24 -7.94 -7.68 -7.57 -7.57 -7.39 -7.33 -7.30 -7.26	0	0	0	0	0	
+123	01	3	CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc1F	-7.5768	-7.58 -7.00 -6.94 -6.94 -6.87 -6.65 -6.65 -6.60 -6.53	0	0	0	0	0	
+123	02	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(C(=O)NC(Cc2ccccc2)C(=O)O)cc1	-8.7366	-8.74 -8.60 -8.39 -8.14 -7.72 -7.58 -7.33 -7.29 -6.82	0	0	0	1	0	anionic(ARG28.A-UNL1)
+123	02	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(C(=O)NC(Cc2c[nH]cn2)C(=O)O)cc1	-8.6557	-8.66 -8.32 -8.11 -8.11 -8.06 -7.75 -7.36 -7.32 -7.21	0	0	0	1	0	anionic(ARG28.A-UNL1)
+123	02	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(C(=O)NC(CCCN)C(=O)O)cc1	-8.343	-8.34 -8.00 -7.86 -7.82 -7.72 -7.61 -6.97 -6.89 -6.85	0	0	0	0	0	
+123	03	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(C(=O)NC(Cc2ccccc2)C(=O)O)cc1	-8.7153	-8.72 -8.64 -8.52 -8.31 -8.16 -8.08 -7.80 -7.64 -7.62	0	0	0	1	0	anionic(ARG28.A-UNL1)
+123	03	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)O)C(=O)O	-7.9385	-7.94 -7.71 -7.67 -7.42 -7.29 -6.91 -6.88 -6.86 -6.71	0	1	0	0	0	vdwcontact(PRO61.A-UNL1)
+123	04	1	CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(cc1)C(=O)NC(CCc1nnn[nH]1)C(=O)	-8.3139	-8.31 -7.47 -7.38 -7.31 -7.30 -7.20 -7.19 -7.00 -6.92	0	0	0	0	0	
+123	05	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)c1ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc1	-9.2613	-9.26 -8.04 -7.72 -7.58 -6.76 -6.52 -6.36	0	2	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1); vdwcontact(ASN64.A-UNL1)
+123	05	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(C(=O)NC(CCCNC(=N)N)C(=O)O)cc1	-8.9793	-8.98 -8.78 -8.65 -8.21 -7.96 -7.92 -7.89 -7.87 -7.72	0	0	0	1	0	anionic(ARG28.A-UNL1)
+123	05	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(C(=O)NC(Cc2ccc(F)cc2)C(=O)O)cc1	-8.7665	-8.77 -8.23 -8.04 -7.90 -7.90 -7.84 -7.73 -7.44 -7.37	0	0	0	0	0	
+123	06	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)Oc1ccc(cc1)C(=O)NC(CCC(=O)O)C(=O)O	-9.8185	-9.82 -9.33 -9.31 -9.18 -7.83 -7.55 -7.42 -7.31 -7.14	0	1	0	0	0	vdwcontact(TYR22.A-UNL1)
+123	06	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)c1cc(F)c(cc1)C(=O)NC(CCC(=O)O)C(=O)O	-9.0257	-9.03 -8.96 -7.75 -7.34 -6.92 -6.77 -6.70 -6.48 -6.41	0	0	0	1	0	anionic(ARG28.A-UNL1)
+123	06	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C#Cc1ccc(cc1)C(=O)NC(CCC(=O)O)C(=O)O	-6.9487	-6.95 -6.63 -6.27 -5.93 -5.92 -5.84 -5.39 -4.64 -4.53	0	0	0	0	0	
+123	07	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc2)cc1	-10.6521	-10.65 -9.89 -9.39 -8.68 -8.48 -8.41 -8.27 -8.01 -7.88	0	1	0	0	0	vdwcontact(TYR22.A-UNL1)
+123	07	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2ccc(F)c(C(=O)NC(CCC(=O)O)C(=O)O)c2)cc1	-9.2234	-9.22 -7.61 -7.14 -6.93 -6.92 -6.84 -6.72 -6.25	0	0	0	0	0	
+123	07	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(c2ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc2)cc1	-8.1141	-8.11 -8.09 -8.01 -7.87 -7.71 -7.12 -6.81 -6.75 -6.61	0	2	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1); vdwcontact(ASN64.A-UNL1)
+123	08	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2cc(F)cc(C(=O)NC(CCC(=O)O)C(=O)O)c2)cc1	-9.9188	-9.92 -9.66 -9.37 -8.82 -8.61 -8.41 -8.34 -8.00 -7.78	0	1	0	0	0	vdwcontact(TYR22.A-UNL1)
+123	08	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2cc(C(F)(F)F)ccc2C(=O)NC(CCC(=O)O)C(=O)O)cc1	-9.7903	-9.79 -9.77 -8.96 -8.90 -8.78 -8.10 -7.55 -7.28	0	1	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ASN64.A-UNL1)
+123	08	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2ccc(C(=O)NC(CCC(=O)O)C(=O)O)c(F)c2)cc1	-9.7151	-9.72 -9.61 -9.55 -9.27 -9.11 -8.50 -8.44 -8.32 -8.21	0	1	0	0	0	vdwcontact(TYR22.A-UNL1)
+123	09	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2c(F)cc(C(=O)NC(CCC(=O)O)C(=O)O)cc2F)cc1	-9.9122	-9.91 -9.30 -7.66 -7.59 -7.44 -7.27 -7.18 -6.98	0	1	0	0	0	vdwcontact(TYR22.A-UNL1)
+123	09	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2ccc(C(=O)NC(CC(=O)O)C(=O)O)cc2)cc1	-9.7197	-9.72 -8.92 -8.46 -8.29 -8.10 -7.68 -7.26 -7.26	0	1	0	0	0	vdwcontact(TYR22.A-UNL1)
+123	09	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Nc2ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc2)cc1	-9.2848	-9.28 -9.15 -8.75 -8.36 -7.84 -7.21 -7.12 -6.56 -6.34	0	1	0	0	0	vdwcontact(PRO61.A-UNL1)
+123	10	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2c(F)cc(C(=O)NC(CCC(=O)O)C(=O)O)cc2F)cc1	-10.0114	-10.01 -9.42 -8.82 -8.80 -8.74 -8.69 -8.52 -8.36 -7.68	0	1	0	0	0	vdwcontact(TYR22.A-UNL1)
+123	10	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Oc2ccc(C(=O)NC(CCc3nnn[nH]3)C(=O)O)cc2)cc1	-9.8372	-9.84 -9.55 -9.45 -9.12 -8.91 -8.79 -8.75 -8.74 -8.66	0	1	0	0	0	vdwcontact(TYR22.A-UNL1)
+123	10	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Sc2ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc2)cc1	-9.1963	-9.20 -8.56 -7.81 -6.76 -6.56 -6.34 -6.27	0	1	0	0	0	vdwcontact(PRO61.A-UNL1)
+42	01	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCCNC(=N)N)C(=O)O	-8.5758	-8.58 -8.17 -7.78 -7.44 -7.39 -7.05 -6.95 -6.94 -6.69	0	0	0	1	0	anionic(ARG28.A-UNL1)
+42	01	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(F)cc1C(=O)NC(CCC(=O)O)C(=O)O	-7.9692	-7.97 -6.96 -6.50 -6.49 -6.02 -6.01 -5.78 -5.77 -5.58	0	1	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1)
+42	01	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(-c2ccccc2)cc1C(=O)NC(CCC(=O)O)C(=O)O	-7.3038	-7.30 -5.63 -5.36 -5.31 -5.27 -5.21 -4.52	0	0	0	0	0	
+42	02	1	CN(Cc1cnc2nc(N)nc(NC(=O)CCN)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)O)C(=O)O	-8.2223	-8.22 -7.95 -7.40 -7.39 -7.35 -7.23 -7.14 -6.97 -6.93	0	1	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1)
+42	02	2	CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)O)C(=O)O	-7.6598	-7.66 -7.54 -7.50 -7.34 -7.08 -7.02 -6.92 -6.50 -5.99	0	0	0	0	0	
+42	02	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCCN=C(N)N)C(=O)O	-7.6238	-7.62 -7.60 -7.50 -7.49 -7.46 -7.16 -7.12 -6.90 -6.88	0	0	0	1	0	anionic(ARG28.A-UNL1)
+42	03	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(F)cc1C(=O)NC(CCCNC(=N)N)C(=O)O	-8.6189	-8.62 -7.03 -6.89 -6.58 -6.51 -6.45 -6.44 -6.33 -5.88	0	1	0	0	0	vdwcontact(PRO61.A-UNL1)
+42	03	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCCN)CC(=O)O	-8.0443	-8.04 -7.97 -7.88 -7.59 -7.44 -7.27 -7.22 -7.05 -6.84	0	0	0	1	0	anionic(ARG28.A-UNL1)
+42	03	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCCN=C(N)N)C(=O)NCC(=O)O	-7.6245	-7.62 -7.38 -7.31 -7.18 -6.95 -6.94 -6.68 -6.53 -6.52	0	2	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1); vdwcontact(ASN64.A-UNL1)
+42	04	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1ccccc1)C(=O)O	-9.4258	-9.43 -9.39 -8.55 -8.33 -8.03 -7.95 -7.81 -7.56 -7.48	0	1	0	0	0	vdwcontact(ASN64.A-UNL1)
+42	04	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)S(=O)(=O)NC(CCC(=O)O)C(=O)O	-9.0588	-9.06 -8.81 -8.72 -8.43 -8.36 -7.89 -7.84 -7.43 -7.42	0	0	0	1	0	anionic(ARG28.A-UNL1)
+42	04	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(OC)cc1C(=O)NC(CCCNC(=N)N)C(=O)O	-8.5367	-8.54 -8.28 -7.70 -7.01 -6.91 -6.76 -6.12 -5.81 -5.73	0	0	0	0	0	
+42	05	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)O	-9.8136	-9.81 -9.09 -8.54 -8.44 -8.16 -8.02 -7.96 -7.81 -7.59	0	1	0	0	0	vdwcontact(ASN64.A-UNL1)
+42	05	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1ccc(Cl)cc1)C(=O)O	-9.276	-9.28 -7.94 -7.77 -7.70 -7.61 -7.50 -6.86 -6.84 -6.81	0	1	0	0	0	vdwcontact(ASN64.A-UNL1)
+42	05	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1cccc2ccccc12)C(=O)O	-7.7751	-7.78 -7.76 -7.75 -7.68 -7.64 -7.61 -7.56 -7.40 -7.29	0	0	0	0	0	
+42	06	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1c[nH]c2ccc(F)cc12)C(=O)O	-9.2482	-9.25 -8.81 -8.11 -8.04 -8.04 -7.88 -7.82 -7.78 -7.72	0	0	0	0	0	
+42	06	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1csc2ccccc12)C(=O)O	-9.2267	-9.23 -8.52 -8.25 -8.15 -8.07 -7.85 -7.84 -7.76 -7.58	0	1	0	0	0	vdwcontact(ASN64.A-UNL1)
+42	06	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1ccc2ccccc2c1)C(=O)O	-8.04	-8.04 -7.85 -7.61 -7.33 -7.28 -7.22 -7.21 -7.21 -6.93	0	0	0	0	0	
+42	07	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1c[nH]c2cc3ccccc3cc12)C(=O)O	-9.2022	-9.20 -8.73 -8.57 -8.55 -8.52 -8.38 -8.37 -8.13 -7.71	0	0	0	1	0	anionic(ARG28.A-UNL1)
+42	07	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1c[nH]c2cc(Cl)ccc12)C(=O)O	-8.9259	-8.93 -8.32 -8.10 -8.08 -7.99 -7.81 -7.75 -7.71 -7.56	0	1	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1)
+42	07	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1c[nH]c2cc(OC)ccc12)C(=O)O	-7.8581	-7.86 -7.62 -7.27 -7.26 -7.25 -7.16 -6.59 -6.51 -6.49	0	0	0	0	0	
+42	08	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1c[nH]c2cc(O)ccc12)C(=O)O	-8.9812	-8.98 -8.31 -8.31 -8.22 -8.13 -7.78 -7.73 -7.64 -7.63	0	0	0	1	0	anionic(ARG28.A-UNL1)
+42	08	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1coc2ccccc12)C(=O)O	-8.8815	-8.88 -8.39 -8.36 -8.06 -7.65 -7.64 -7.61 -7.59 -7.47	0	0	0	0	0	
+42	08	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1c[nH]c2cc(C(N)=N)ccc12)C(=O)O	-8.8047	-8.80 -8.53 -8.39 -7.79 -7.51 -6.64 -6.62 -6.59	0	0	0	0	0	
+42	09	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1c[nH]c2ccc(Br)cc12)C(=O)O	-9.0718	-9.07 -8.58 -8.19 -7.84 -7.78 -7.73 -7.72 -7.68 -7.65	0	0	0	0	0	
+42	09	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)S(=O)(=O)NC(Cc1c[nH]c2ccccc12)C(=O)O	-7.9349	-7.93 -7.73 -7.46 -7.05 -6.92 -6.45 -6.35 -6.30 -6.07	0	1	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1)
+42	09	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1csc2ccccc12)C(=O)O	-7.641	-7.64 -7.55 -7.45 -7.42 -7.28 -7.27 -6.97 -6.74 -6.23	0	0	0	1	0	anionic(ARG28.A-UNL1)
+42	10	1	CCN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)O	-8.9939	-8.99 -8.19 -7.86 -7.83 -7.76 -7.76 -7.73 -6.76 -6.61	0	0	0	0	0	
+42	10	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1cn(C)c2ccccc12)C(=O)O	-8.7522	-8.75 -8.75 -8.30 -8.21 -8.20 -7.88 -7.77 -7.62 -7.34	0	0	0	1	0	anionic(ARG28.A-UNL1)
+456	01	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)NO)C(=O)O	-9.3684	-9.37 -8.66 -8.31 -8.30 -8.08 -7.82 -7.72 -7.72 -7.59	0	0	0	0	0	
+456	01	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(Cl)c(C(=O)NC(CCC(=O)O)C(=O)O)c1	-8.4529	-8.45 -8.23 -7.98 -7.96 -7.92 -7.92 -7.70 -7.16 -6.89	0	1	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1)
+456	01	3	CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)O)C(=O)O	-8.3205	-8.32 -7.58 -7.24 -7.01 -6.89 -6.86 -6.81 -6.58 -6.33	0	0	0	0	0	
+456	02	1	N(CCN)(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)NO)C(=O)O	-8.6225	-8.62 -8.35 -7.84 -7.65 -7.60 -7.58 -7.50 -7.44 -7.22	0	0	0	1	0	anionic(ARG28.A-UNL1)
+456	02	2	N(CCN)(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCc1nnn[nH]1)C(=O)O	-8.49	-8.49 -8.07 -8.04 -8.03 -7.85 -7.79 -7.78 -7.78 -7.73	0	0	0	1	0	anionic(ARG28.A-UNL1)
+456	02	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCc1nnn[nH]1)C(=O)O	-8.4602	-8.46 -8.05 -7.44 -7.44 -7.39 -7.06 -7.06 -6.81 -6.76	0	1	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1)
+456	04	1	CCC(=O)NO	-4.5284	-4.53 -4.48 -4.29 -3.78 -3.68 -3.61 -3.49 -3.48 -3.10	0	1	0	0	0	vdwcontact(ILE16.A-UNL1)
+456	05	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)NO)C(=O)NO	-9.2443	-9.24 -8.74 -8.53 -8.40 -8.40 -8.35 -8.27 -8.20 -8.12	0	1	0	0	1	vdwcontact(SER59.A-UNL1)
+456	05	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1-c1ccccc1)C(=O)NC(CCC(=O)NO)C(=O)O	-7.6149	-7.61 -7.24 -6.77 -6.75 -6.59 -6.39 -5.78 -5.71 -5.69	0	0	0	0	0	
+456	05	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)NO)C(=O)NCCN	-6.9216	-6.92 -6.77 -6.61 -6.54 -6.53 -6.47 -6.44 -5.93 -5.91	0	1	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1)
+456	06	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(F)c(C(=O)NC(CCC(=O)NO)C(=O)O)c1	-9.3139	-9.31 -9.18 -9.03 -8.89 -8.73 -8.64 -8.43 -8.38 -8.37	0	1	0	1	0	anionic(ARG28.A-UNL1); vdwcontact(ARG28.A-UNL1)
+456	06	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCS(=O)(=O)O)C(=O)O	-8.349	-8.35 -8.21 -7.54 -7.41 -7.34 -7.16 -6.83 -6.75 -6.34	0	0	0	1	0	anionic(ARG28.A-UNL1)
+456	06	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)NO)C(=O)NO	-8.0477	-8.05 -7.89 -7.78 -7.60 -7.28 -7.24 -7.10 -6.93 -6.90	0	0	0	0	0	
+456	08	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCCNC(=N)N)C(=O)O	-8.8939	-8.89 -7.69 -7.51 -7.42 -7.40 -7.13 -7.11 -7.09 -7.05	0	0	0	1	0	anionic(ARG28.A-UNL1)
+456	08	2	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)NCc1ccccc1)C(=O)O	-8.5672	-8.57 -8.21 -7.91 -7.84 -7.68 -7.29 -7.25 -7.16 -7.15	0	1	0	0	0	vdwcontact(PRO61.A-UNL1)
+456	08	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(Cc1ccc(O)cc1)C(=O)O	-7.5883	-7.59 -7.33 -7.27 -7.05 -6.94 -6.93 -6.87 -6.05 -6.05	0	0	0	0	0	
+456	09	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCCC(=O)NO)C(=O)O	-8.846	-8.85 -8.66 -8.32 -8.00 -7.67 -7.60 -7.52 -7.39 -7.35	0	0	0	1	0	anionic(ARG28.A-UNL1)
+456	09	2	CCN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)NO)C(=O)O	-8.7721	-8.77 -8.71 -8.12 -8.01 -7.92 -7.91 -7.70 -7.28 -7.18	0	0	0	0	0	
+456	09	3	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(OC)c(C(=O)NC(CCC(=O)NO)C(=O)O)c1	-8.5837	-8.58 -8.31 -8.24 -7.95 -7.68 -7.61 -7.01 -6.45 -6.34	0	0	0	1	0	anionic(ARG32.A-UNL1)
+456	10	1	CN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(s1)C(=O)NC(CCC(=O)NO)C(=O)O	-8.9187	-8.92 -8.83 -8.32 -8.00 -7.99 -7.82 -6.91 -6.89 -6.77	0	0	0	1	0	anionic(ARG28.A-UNL1)
+456	10	2	C#CCN(Cc1cnc2nc(N)nc(O)c2n1)c1ccc(cc1)C(=O)NC(CCC(=O)NO)C(=O)O	-8.7371	-8.74 -8.59 -8.53 -8.00 -8.00 -7.98 -7.48 -7.40 -6.99	0	0	0	1	0	anionic(ARG32.A-UNL1)
