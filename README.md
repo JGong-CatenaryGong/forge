@@ -44,20 +44,6 @@ cp api_llm.example.txt api_llm.txt
 | `simple_evaluator` | XTB-only evaluator (no DFT) | ❌ |
 | `llm_core_simple` | XTB-only orchestrator | ❌ |
 
-## Benchmark (DFT batch — target gap 3.0 eV)
-
-7 models × 3 seeds × 10 rounds × 20 candidates, sorted by best |dev| across seeds.
-
-| Model | Best \|dev\| | Med \|dev\| | Mean ± SE |
-|---|---|---|---|
-| DeepSeek v4-pro | 0.0054 | 0.00613 | 0.0238 ± 0.0180 |
-| Mimo v2.5-pro | 0.0053 | 0.0097 | 0.0250 ± 0.0176 |
-| Qwen 3.7-max | 0.0024 | 0.0112 | 0.0331 ± 0.0265 |
-| DeepSeek v4-flash | 0.0056 | 0.0137 | 0.0567 ± 0.0471 |
-| GLM 5.1 | 0.0030 | 0.0140 | 0.0315 ± 0.0232 |
-| MiniMax M3 | 0.0103 | 0.0141 | 0.0141 ± 0.0038 |
-| Doubao | 0.0004 | 0.0488 | 0.0509 ± 0.0298 |
-
 ## License
 
 MIT
